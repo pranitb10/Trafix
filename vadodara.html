@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html style="background-color:#38a5de;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+div.scrollmenu {
+  background-color: #38a5de;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #777;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #777s;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+u{
+  color: yellow;
+}
+a:active{
+  color: yellow;
+}
+
+p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+
+  span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+.wizathonMap {
+      position: relative;
+      padding-bottom: 75%;
+      height: 0;
+      overflow: hidden;
+  }
+  .wizathonMap iframe {
+      position: absolute;
+      padding-top: 120px;
+      padding-left: 140px;
+      width: 80% !important;
+      height: 80% !important;
+  }
+</style>
+</head>
+<body style="font-family: 'Montserrat';">
+
+<div class="scrollmenu">
+  <li class="dropdown">
+    <a href="index.html" class="dropbtn" style="font-size: 30px; color: #333;">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px;"><u>Gujarat</u></a>
+    <div class="dropdown-content">
+      <a href="vadodara.html" style="background-color: #333; color: white;">Vadodara</a>
+      <a href="#" style="background-color: #333; color: white;">Surat</a>
+      <a href="#" style="background-color: #333; color: white;">Ahmedabad</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px; color: #333;">Maharashtra</a>
+    <div class="dropdown-content">
+      <a href="#" style="background-color: #333; color: white;">Mumbai</a>
+      <a href="#" style="background-color: #333; color: white;">Pune</a>
+      <a href="#" style="background-color: #333; color: white;">Nashik</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px; color: #333;">Rajasthan</a>
+    <div class="dropdown-content">
+      <a href="#" style="background-color: #333; color: white;">Jaipur</a>
+      <a href="#" style="background-color: #333; color: white;">Udaipur</a>
+      <a href="#" style="background-color: #333; color: white;">Kota</a>
+      <a href="#" style="background-color: #333; color: white;">Jaisalmer</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px; color: #333;">Madhya Pradesh</a>
+    <div class="dropdown-content">
+      <a href="#" style="background-color: #333; color: white;">Bhopal</a>
+      <a href="#" style="background-color: #333; color: white;">Gwalior</a>
+      <a href="#" style="background-color: #333; color: white;">Indore</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px; color: #333;">Punjab</a>
+    <div class="dropdown-content">
+      <a href="#" style="background-color: #333; color: white;">Amritsar</a>
+      <a href="#" style="background-color: #333; color: white;">Chandigarh</a>
+      <a href="#" style="background-color: #333; color: white;">Jalandhar</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" style="font-size: 30px; color: #333;">Uttar Pradesh</a>
+    <div class="dropdown-content">
+      <a href="#" style="background-color: #333; color: white;">Agra</a>
+      <a href="#" style="background-color: #333; color: white;">Lucknow</a>
+      <a href="#" style="background-color: #333; color: white;">Varanasi</a>
+    </div>
+  </li>
+</div>
+<p>
+  <span style="padding-left: 220px; font-size: 30px;">
+    Vadodara
+  </span>
+</p>
+<div class="col-md-5 col-sm-12">
+  <div class="wizathonMap">
+    <iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1f-uvA8gssbIixCeHeGVwjbhGCmwVGZ3Q" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+function performGetRequest1() {
+  var resultElement = document.getElementById('getResult1');
+  resultElement.innerHTML = '';
+
+  axios.get('http://127.0.0.1:5000/cars/')
+    .then(function (response) {
+      resultElement.innerHTML = generateSuccessHTMLOutput(response);
+    })
+    .catch(function (error) {
+      resultElement.innerHTML = generateErrorHTMLOutput(error);
+    });
+}
+</script>
+</body>
+</html>
